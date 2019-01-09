@@ -1,1 +1,1 @@
-# pygame-experiments
+Project experimenting with PyGame
