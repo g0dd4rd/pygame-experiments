@@ -6,7 +6,7 @@ speed = [2, 2]
 black = 0, 0, 0
 
 screen = pygame.display.set_mode(size)
-ball = pygame.image.load('graphics/ball.gif')
+ball = pygame.image.load('graphics/ball.gif') #.convert()
 ball_rect = ball.get_rect()
 
 while True:
@@ -23,4 +23,5 @@ while True:
   screen.fill(black)
   screen.blit(ball, ball_rect)
   pygame.display.flip()
+  pygame.time.delay(25)
 
